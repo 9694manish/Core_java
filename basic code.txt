@@ -1,0 +1,57 @@
+//5 citys name--
+public class Main {
+    public static void main(String[] args) 
+       {
+        System.out.print("5 Citys Name :\n");
+        System.out.print("1 __Jaipur\n");
+        System.out.print("2__Delhi\n");
+        System.out.print("3__Mumbai\n");
+        System.out.print("4__Kolkata\n");
+        System.out.print("5__Surat\n");
+    }
+}
+
+
+//5 Neighbour Name--
+public class Neighbour{
+    public static void main(String[]args)
+    {
+        System.out.println("5 Neighbour Name :\n");
+        System.out.print("1__Laduram\n");
+        System.out.print("2__Kamal\n");
+        System.out.print("3__Manoj\n");
+        System.out.print("4__Lokesh\n");
+        System.out.print("5__Raj\n");
+    }
+}
+
+
+// 5 States Name
+public class States
+{
+    public static void main(String[]args)
+    {
+        System.out.println("5 States\n");
+        System.out.print("1__Goa\n");
+        System.out.print("2__Jummu Kashmir\n");
+        System.out.print("3__Bihar\n");
+        System.out.print("4__Asam\n");
+        System.out.print("5__Rajsthan\n");
+        
+    }
+}
+
+
+//5 Countrys
+public class Country
+{
+    public static void main(String[]args)
+    {
+        System.out.println("5 Countrys\n");
+        System.out.print("1__India\n");
+        System.out.print("2__China\n");
+        System.out.print("3__Canada\n");
+        System.out.print("4__Belgium\n");
+        System.out.print("5__Austria\n");
+    }
+}
