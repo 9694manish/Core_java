@@ -1,0 +1,344 @@
+Test 31/5/2023
+
+
+
+
+
+
+
+
+
+//import java.util.*;
+//public class Main{
+//    public static void main(String[] args){
+//        Scanner sc=new Scanner(System.in);
+//        int num=sc.nextInt();
+//        if (num>10)
+//        {
+//            System.out.println("max");
+//        }
+//    }
+//}
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner (System.in);
+//        System.out.println("enter the value of a :");
+//        int a=sc.nextInt();
+//        System.out.println("enter the value of b:");
+//        int b=sc.nextInt();
+//        if(a>b)
+//        {
+//            System.out.println("a is max");
+//
+//        }
+//            if (b>a)
+//        {
+//            System.out.println("b is max");
+//        }
+//            if(a==b)
+//            {
+//                System.out.println("bothe equal");
+//            }
+//    }
+//}
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args) {
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.next();
+//        System.out.println(name + "world");
+//    }}
+
+
+
+
+
+//public class Main{
+//    public static void main(String[]args) {
+//        int a=10;
+//        int b=20;
+//        int c=0;
+//        c=a;
+//        a=b;
+//        b=c;
+//        System.out.println("the value of a is :"+a);
+//        System.out.println("the value of a is :"+b);
+//    }}
+
+
+//public class Main{
+//    public static void main(String[]args) {
+//        int a=10;
+//        int b=20;
+//          a=a+b;
+//          b=a-b;
+//          a=a-b;
+//        System.out.println("the value of a is :"+a);
+//        System.out.println("the value of a is :"+b);
+//    }}
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner (System.in);
+//        System.out.println("enter the value of a :");
+//        char a=sc.next().charAt(0);{
+//            System.out.println(a);
+//        }}}
+
+
+
+
+
+//public class Main{
+//    public static void main(String[]args) {
+//        int a=10;
+//        int b=20;
+//          a=a*b;
+//          b=a/b;
+//          a=a/b;
+//        System.out.println("the value of a is :"+a);
+//        System.out.println("the value of a is :"+b);
+//    }}
+
+
+
+
+
+Assignment 6
+
+
+
+//import java.util.Scanner;
+//public class Second{
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.next();
+//        System.out.println("enter second word:");
+//        String name1 =sc.next();
+//
+//            System.out.println(name+ "Details");
+//            System.out.println(name1 +"ld=101");
+//            System.out.println(name1 +"Name=Jones");
+//            System.out.println(name1 +"Gender=M");
+//            System.out.println(name1 +"Email=customer1@gmail.com");
+//            System.out.println(name1 +"Mobile=1122334455");
+//        }}
+//
+
+
+
+public class Second{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.next();
+//        System.out.println("enter second word:");
+//        String name1 =sc.next();
+        System.out.println("enter customer id :");
+        String name2=sc.nextLine();
+        System.out.println("enter customer name :");
+        String name3=sc.nextLine();
+        System.out.println("enter customer gender :");
+        String name4=sc.nextLine();
+        System.out.println("enter customer gmail :");
+        String name5=sc.nextLine();
+        System.out.println("enter customer mobile :");
+        String name6=sc.nextLine();
+
+
+        System.out.println("Customer Details");
+        System.out.println("__________________");
+        System.out.println("customerld=" +name2);
+        System.out.println("customerName=" +name3);
+        System.out.println("customerGender=" +name4);
+        System.out.println("customerEmail=" +name5);
+        System.out.println("customerMobile=" +name6);
+    }}
+
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the a :");
+//        int a=sc.nextInt();
+//        System.out.println("enter the b :");
+//        int b=sc.nextInt();
+//        int c= a+b;
+//        int d=a-b;
+//        int e=a*b;
+//        int f=a/b;
+//        System.out.println(c);
+//        System.out.println(d);
+//        System.out.println(e);
+//        System.out.println(f);
+//
+//
+//
+//    }
+//}
+
+
+//public class Main{
+//    public static void main(String[]args) {
+//        float a = 5000 * .05f;
+//        float b = 5000 * .10f;
+//        float c = 5000 * .20f;
+//        float d = 5000 * .25f;
+//        float e = 5000 * .50f;
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+//        System.out.println(d);
+//        System.out.println(e);
+//    }}
+
+
+
+
+
+
+
+
+
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+" world");
+//    }
+//}
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+" is a developer");
+//    }
+//}
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+" is a king");
+//    }
+//}
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+" hi how are you hello priya");
+//    }
+//}
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+" is a programming language");
+//    }
+//}
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println("hello "+name);
+//    }
+//}
+
+
+//
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println("how are you "+name);
+//    }
+//}
+
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name+ " are the best person ");
+//    }
+//}
+
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the word :");
+//        String name =sc.nextLine();
+//        System.out.println(name);
+//    }
+//}
+
+
+
+
+
