@@ -1,0 +1,250 @@
+
+
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the value a :");
+//        int a  =sc.nextInt();
+//        System.out.println("enter the value b: " );
+//        int b =sc.nextInt();
+//        if(a%2==0)
+//        {
+//            System.out.println("the number is even");
+//        }
+//        else{
+//             System.out.println("the number is odd ");
+//    }
+//    }
+//}
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the value a :");
+//        int a  =sc.nextInt();
+//        System.out.println("enter the value b: " );
+//        int b =sc.nextInt();
+//        if(a>b)
+//        {
+//            System.out.println("a is max");
+//        }
+//        if (b>a){
+//            System.out.println("b is max ");
+//        }
+//        if(a==b) {
+//            System.out.println("both equale");
+//
+//        }
+//    }
+//}
+
+
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the value a :");
+//        int a  =sc.nextInt();
+//        System.out.println("enter the value b: " );
+//        int b =sc.nextInt();
+//        if(a>b)
+//        {
+//            System.out.println("a is max");
+//        }
+//        if (b>a){
+//             System.out.println("b is max ");
+//    }
+//       else {
+//            System.out.println("both equale");
+//
+//        }
+//    }
+
+//}
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner (System.in);
+//        int a =sc.nextInt();
+//        int b =sc.nextInt();
+//        a = a+b;//20+10=30
+//        b=a-b;//30-10=20
+//        a=a-b;//30-20=10
+//
+//        System.out.println(+a);
+//        System.out.println(+b);
+//
+//    }
+//}
+
+
+
+
+//import java.util.Scanner ;
+//public class Main {
+//public static void main(String[]args){
+//    Scanner sc=new Scanner(System.in);
+//    System.out.println("enter the number" );
+//    int a=sc.nextInt();
+//    if (a%5==0 && a%11==0){
+//        System.out.println("the number is divide 5 and 11 :");
+//    }
+//    else {
+//        System.out.println("the number not divide 5 and 11 ");
+//    }}
+//}
+
+
+
+
+
+
+
+import java.util.Scanner ;
+public class Main {
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the number" );
+    int number=sc.nextInt();
+    if (number>0){
+        System.out.println("the number is positive ");
+    } else if (number<0) {
+        System.out.println("the number is negative ");
+    } else {
+        System.out.println("the number is zero ");
+    }}
+}
+
+
+
+
+
+
+import java.util.Scanner ;
+public class Main {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number" );
+        char ch=sc.next().charAt(0);
+        if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+            System.out.println("the char is vowel ");
+        }
+
+        else {
+            System.out.println("the char is consonant ");
+        }}
+}
+
+
+
+
+
+
+
+
+//10 number max
+import java.util.Scanner ;
+public class Main {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number a" );
+        int a=sc.nextInt();
+        System.out.println("enter the number b" );
+        int b=sc.nextInt();
+        System.out.println("enter the number c" );
+        int c=sc.nextInt();
+        System.out.println("enter the number d" );
+        int d=sc.nextInt();
+        System.out.println("enter the number e" );
+        int e=sc.nextInt();
+        System.out.println("enter the number f" );
+        int f=sc.nextInt();
+        System.out.println("enter the number g" );
+        int g=sc.nextInt();
+        System.out.println("enter the number h" );
+        int h=sc.nextInt();
+        System.out.println("enter the number i" );
+        int i=sc.nextInt();
+        System.out.println("enter the number j" );
+        int j=sc.nextInt();
+        if (a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>i && a>j ){
+            System.out.println("the max is a ");
+        }
+
+        if (b>a && b>c && b>d && b>e && b>f && b>g && b>h && b>i && b>j){
+            System.out.println("the max is b ");
+        }
+        if (c>a && c>b && c>d && c>e && c>f && c>g && c>h && c>i && c>j){
+            System.out.println("the max is c");
+        }
+        if (d>a && d>b && d>c && d>e && d>f && d>g && d>h && d>i && d>j){
+            System.out.println("the max is d ");
+        } if (e>a && e>b && e>c && e>d && e>f && e>g && e>h && e>i && e>j){
+            System.out.println("the max is e");
+        } if (f>a && f>b && f>d && f>e && f>c && f>g && f>h && f>i && f>j){
+            System.out.println("the max is f ");
+        } if (g>a && g>b && g>d && g>e && g>f && g>c && g>h && g>i && g>j){
+            System.out.println("the max is g ");
+        } if (h>a && h>b && h>d && h>e && h>f && h>g && h>c && h>i && h>j){
+            System.out.println("the max is h ");
+        } if (i>a && i>b && i>d && i>e && i>f && i>g && i>h && i>c && i>j){
+            System.out.println("the max is i ");
+        } if (j>a && j>b && j>d && j>e && j>f && j>g && j>h && j>i && j>c){
+            System.out.println("the max is j ");
+        }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+public class Main{
+    public static void main(String[]args){
+        int age =18,weight=51;
+        if (age>=18)
+        {
+            if (weight>=50)
+            {
+                System.out.println("eligible");
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
