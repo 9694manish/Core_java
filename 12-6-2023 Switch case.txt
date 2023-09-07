@@ -1,0 +1,129 @@
+12-6-2023 Switch case
+
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter the week day :");
+//         int day=sc.nextInt();
+//        switch ( day )
+//        {
+//            case 1:
+//                System.out.println("sunday");
+//                break;
+//            case 2:
+//                System.out.println("monday");
+//                break;
+//            case 3:
+//                System.out.println("tusday");
+//                break;
+//            case 4:
+//                System.out.println("wednesday");
+//                break;
+//            case 5:
+//                System.out.println("thursday");
+//                break;
+//            case 6:
+//                System.out.println("friday");
+//                break;
+//            case 7:
+//                System.out.println("saturday");
+//                break;
+//            default:
+//                System.out.println("not a day ");
+//        }
+//    }
+//}
+
+
+
+
+
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter the gender :");
+//        char gender=sc.next().charAt(0);
+//        switch ( gender )
+//        {
+//            case 'm':
+//                System.out.println("male");
+//                break;
+//            case 'M':
+//                System.out.println("Male");
+//                break;
+//            case 'f':
+//                System.out.println("female");
+//                break;
+//            case 'F':
+//                System.out.println("Female");
+//                break;
+//            default:
+//                System.out.println("not a gender ");
+//        }
+//    }
+//}
+
+
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//
+//        Scanner sc=new Scanner(System.in);
+//        int num=0;
+//        System.out.println("Enter the number :");
+//        num=sc.nextInt();
+//        switch (num%2){
+//            case 1:
+//                System.out.println("even");
+//                break;
+//            case 2:
+//                System.out.println("odd");
+//                break;
+//        }
+//    }
+//}
+
+
+//import java.util.Scanner;
+//
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter any one operetor(+,-,*,/) :");
+//        char ch=sc.next().charAt(0);
+//        System.out.println("enter number 1 :");
+//        int a = sc.nextInt();
+//        System.out.println("enter number 2 :");
+//        int b=sc.nextInt();
+//        int x;
+//
+//        switch (ch){
+//            case '+':
+//                x=a+b;
+//                System.out.println(x);
+//                break;
+//            case '-':
+//                x=a-b;
+//                System.out.println(x);
+//                break;
+//            case '*':
+//                x=a*b;
+//                System.out.println(x);
+//                break;
+//            case '/':
+//                x=a/b;
+//                System.out.println(x);
+//                break;
+//            default:
+//                System.out.println("not a operetor match");
+//                break;
+//
+//        }
+//    }
+//}
