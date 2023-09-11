@@ -1,0 +1,175 @@
+Constructor And Argument-return
+
+
+
+////Constructor call
+//class A {
+//    A() {
+//    }
+//        void show(){
+//            System.out.println("hello");
+//        }
+//    }
+//    public class Main{
+//        public static void main(String[] args) {
+//            A p=new A();
+//            p.show();
+//        }
+//    }
+
+
+
+
+///////Constructor call without object
+//class A {
+//    A() {
+//        System.out.println("hey");
+//    }
+//    void show(){
+//        System.out.println("hello");
+//    }
+//}
+//public class Main{
+//    public static void main(String[] args) {
+//        new A().show();
+//    }
+//}
+
+
+
+
+
+
+/////same constructor and diffrent parameter
+//class A{
+//    A(int a,int b){
+//        System.out.println(a+b);
+//    }
+//    A(int a){
+//        System.out.println(a);
+//    }
+//        }
+//        public class Main {
+//            public static void main(String[] args) {
+//                A p=new A(1,2);
+//                A r= new A(12);
+//            }
+//}
+
+
+
+
+
+//////Only constructor call
+//class A {
+//    A() {
+//        System.out.println("heyy");
+//    }
+//    void show(){
+//        System.out.println("hello");
+//    }
+//}
+//public class Main{
+//    public static void main(String[] args) {
+//        //Only constructor call
+//        A p=new A();
+//    }
+//}
+
+
+
+
+
+///////////Argument and no return
+//class A {
+//    void show(int a,int b)//parameter
+//    {
+//        System.out.println(a+b);
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        A p=new A();
+//        p.show(4,5);  //Argument
+//    }
+//}
+
+
+
+
+
+
+/////////No Argument and  return
+//class A {
+//    int show()//parameter
+//    {
+//        int c;int a=2; int b=4;
+//       c=a+b;
+//       return c;
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        A p=new A();
+//        int r =p.show();  // no Argument
+//        System.out.println(r);
+//    }
+//}
+
+
+
+
+
+
+/////////no Argument and no return
+//class A {
+//    void show()//parameter
+//    {
+//        System.out.println("hello");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        A p=new A();
+//        p.show();  //Argument
+//    }
+//}
+
+
+
+
+/////////Argument and return
+//class A {
+//    int  show(int a,int b)//parameter
+//    {
+//        int c=a+b;
+//        return c;
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        A p=new A();
+//        float r=p.show(4,5);  //Argument
+//        System.out.println(r);
+//    }
+//}
+
+
+
+
+
+////This keyword use----instance variable value access
+//class A{
+//    int b;
+//    A(int a){
+//        this.b=a;
+//    }
+//    void show(){
+//        System.out.println(b);
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        new A(10).show();
+//    }
+//}
