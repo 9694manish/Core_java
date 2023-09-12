@@ -1,0 +1,122 @@
+Inheritance in java
+
+
+
+
+
+
+
+///////Inheritance in java
+////////child class ke through parent class ka data access
+//class parent{
+//    void parent(){
+//        System.out.println("this class is prent class");
+//    }
+//}
+//class child extends parent{
+//    void child (){
+//        System.out.println("this class is child class");
+//    }
+//}
+//public class Main{
+//    public static void main(String[] args) {
+//        child g=new child();
+//        g.parent();
+//        g.child();
+//    }
+//}
+
+
+
+//////Multilevel Inheritance
+//class Parent{
+//    void parent(){
+//        System.out.println("parent");
+//    }
+//}
+//    class Child extends Parent{
+//        void child(){
+//            System.out.println("child");
+//        }
+//}
+//        class Grandson extends Child{
+//            void grandson(){
+//                System.out.println("grandson");
+//            }
+//        }
+//public class Main {
+//    public static void main(String[] args) {
+//        Grandson kk= new Grandson();
+//        kk.parent();
+//        kk.child();
+//        kk.grandson();
+//    }
+//}
+
+
+
+
+
+///////Set methord
+//class A{
+//    int a;
+//    void setA(int f){
+//        this.a=f;
+//    }
+//}
+//class B extends A{
+//    int b;
+//    void setB(int g){
+//        this.b=g;
+//    }
+//}
+//class C extends B{
+//    int c;
+//    void setC(int h){
+//        this.c=h;
+//    }
+//     void add(){
+//        int add=a+b+c;
+//         System.out.println(add);
+//     }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        C gg=new C();
+//        gg.setA(2);
+//        gg.setB(4);
+//        gg.setC(5);
+//        gg.add();
+//    }
+//}
+
+
+
+
+////////Multilevel override
+
+/////same methord diffrent class
+////////super
+//class A {
+//    void parent() {
+//        System.out.println("hello");
+//    }
+//}
+//    class B extends A {
+//        void parent() {
+//            super.parent();
+//            System.out.println("hey");
+//        }
+//    }
+//    class C extends B{
+//    void parent(){
+//        super.parent();
+//        System.out.println("hi");
+//    }
+//    }
+//    public class Main {
+//        public static void main(String[] args) {
+//            C p=new C();
+//            p.parent();
+//        }
+//        }
