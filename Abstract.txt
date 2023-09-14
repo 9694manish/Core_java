@@ -1,0 +1,126 @@
+Abstract
+
+
+
+
+
+
+////Abstract
+//abstract class Mahindra{
+//    abstract void engine();  //method declere
+//}
+//class Car extends Mahindra{
+//    void engine()     //method define
+//    {
+//        System.out.println("hello");
+//    }
+//}
+//class Thar extends Mahindra{
+//    void engine(){
+//        System.out.println("hi");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        Car d=new Car();
+//        d.engine();
+//        Thar f=new Thar();
+//        f.engine();
+//    }
+//}
+
+
+
+
+
+/////abstract class me non abstract method
+//abstract class Mahindra{
+//    abstract void engine();  //method declere
+//    void add(){
+//        System.out.println("Radhe Radhe");
+//    }
+//}
+//class Car extends Mahindra{
+//    void engine()     //method define
+//    {
+//        System.out.println("hello");
+//    }
+//}
+//class Thar extends Mahindra{
+//    void engine(){
+//        System.out.println("hi");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        Car d=new Car();
+//        d.engine();
+//        d.add();
+//        Thar f=new Thar();
+//        f.engine();
+//    }
+//}
+//////but call child class se hoga
+
+
+
+
+
+
+//////make a object of abstract class
+//abstract class Mahindra{
+//    abstract void engine();  //method declere
+//    void add(){
+//        System.out.println("Radhe Radhe");
+//    }
+//}
+//class Car extends Mahindra{
+//    void engine()     //method define
+//    {
+//        System.out.println("hello");
+//    }
+//}
+//class Thar extends Mahindra{
+//    void engine(){
+//        System.out.println("hi");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        Mahindra d=new Car();
+//        d.engine();
+//        d.add();
+//        Thar f=new Thar();
+//        f.engine();
+//    }
+//}
+////////////but Constructor ka make hoga
+
+
+
+
+
+///////////make a non abstract class and non abstract method
+//abstract class Mahindra{
+//    abstract void engine();  //method declere
+//    
+//}
+//class Car{
+//    void add()     //method define
+//    {
+//        System.out.println("hello");
+//    }
+//}
+//class Thar extends Mahindra{
+//    void engine(){
+//        System.out.println("hi");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        Car d=new Car();
+//        d.add();
+//        Thar f=new Thar();
+//        f.engine();
+//    }
+//}
