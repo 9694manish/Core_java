@@ -1,0 +1,61 @@
+Interface
+
+
+
+
+
+
+//////////////////Interface
+////////////////////can we make multiple interface----------yes
+//interface A{
+//    void show();    //method declar by defualt abstract , static, public
+//}
+//interface C{
+//    void print();
+//}
+//class B implements A,C{
+//    public  void show(){
+//        System.out.println("hey");
+//    }
+//    public void print (){
+//        System.out.println("hello");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        B k=new B();
+//        k.show();
+//        k.print();
+//    }
+//}
+
+
+
+
+
+//////////in interface can we make defualt method---------yes
+//interface A{
+//    void show();    //method declar by defualt abstract , static, public
+//    default void add(){
+//        System.out.println("Radhe Radhe");
+//    }
+//}
+//interface C{
+//   void print();
+//}
+//class B implements A,C{
+//    public  void show(){
+//        System.out.println("hey");
+//    }
+//    public void print (){
+//        System.out.println("hello");
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        B k=new B();
+//        k.show();
+//        k.print();
+//        k.add();
+//    }
+//}
