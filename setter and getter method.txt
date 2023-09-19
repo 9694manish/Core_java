@@ -1,0 +1,37 @@
+setter and getter method
+
+
+
+
+
+
+
+////setter and getter method
+class cal{
+    private int a,b;
+    void setA(int a){
+        this.a=a;
+    }
+    void setB(int b){
+        this.b=b;
+    }
+    int getA(){
+        return a;
+    }
+    int getB(){
+        return b;
+    }
+    void add(){
+        System.out.println(a+b);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        cal c=new cal();
+        c.setA(2);
+        c.setB(3);
+        c.getA();
+        c.getB();
+        c.add();
+    }
+}
