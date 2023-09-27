@@ -1,0 +1,66 @@
+Exception Handling
+
+
+
+
+
+////Arithmetic Exception
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a=45;
+//            int b=0;
+//            int c=a/b;
+//            System.out.println(c);
+//        }
+//        catch (ArithmeticException ex){
+//            System.out.println(ex);
+//        }
+//    }
+//}
+
+
+//// Null Pointer Exception
+//public class Main {
+//    public static void main(String[] args) {
+//        String a =null;
+//        try {
+//            System.out.println(a.length());
+//        }
+//        catch (NullPointerException mk){
+//            System.out.println("String not null use");
+//        }
+//    }
+//}
+
+
+
+
+//Number format Exception
+//public class Main {
+//    public static void main(String[] args) {
+//        String a = "abc";
+//        try {
+//            int b = Integer.parseInt(a);
+//            System.out.println(b);
+//        }catch(NumberFormatException mk){
+//            System.out.println("Please input any number");
+//        }
+//    }
+//}
+
+
+
+
+////Array Index out of bound Exception
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a[] = new int[5];
+//            a[5]=45;
+//            System.out.println(a.length);
+//        }catch (ArrayIndexOutOfBoundsException mk){
+//            System.out.println("Please input valid index");
+//        }
+//    }
+//}
