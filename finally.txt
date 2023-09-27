@@ -1,0 +1,39 @@
+finally 
+
+
+// try --- catch and finally
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a[] = new int[5];
+//            a[5]=45;
+//            System.out.println(a.length);
+//        }
+//        catch (Exception mk){
+//            System.out.println("Please input valid index");
+//        }
+//        finally {
+//            System.out.println("maam");
+//        }
+//    }
+//}
+
+
+
+//finally block print nhi krna ho to System.exit(0); ka use
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a[] = new int[5];
+//            a[5]=45;
+//            System.out.println(a.length);
+//        }
+//        catch (Exception mk){
+//            System.out.println("Please input valid index");
+//            System.exit(0);
+//        }
+//        finally {
+//            System.out.println("maam");
+//        }
+//    }
+//}
