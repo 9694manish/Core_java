@@ -1,0 +1,36 @@
+Any Exception handle
+
+
+
+
+
+//Any exception handle
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a[] = new int[5];
+//            a[5]=45;
+//            System.out.println(a.length);
+//        }catch (Exception mk){
+//            System.out.println("Please input valid index");
+//        }
+//    }
+//}
+
+
+
+/////////catch me exception likhne ke baad fir se catch nahi  likh skte
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            int a[] = new int[5];
+//            a[5]=45;
+//            System.out.println(a.length);
+//        }catch (Exception mk){
+//            System.out.println("Please input valid index");
+//        }
+//        catch (ArithmeticException mk){
+//            System.out.println("mk");
+//        }
+//    }
+//}
