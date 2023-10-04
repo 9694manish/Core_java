@@ -1,0 +1,67 @@
+Create file and enter date
+
+
+
+
+
+
+////create a new file
+//import  java.io.File;
+//import java.io.IOException;
+//public class Main {
+//    public static void main(String[] args) {
+//        try{
+//            File f=new File("first test");
+//            if(f.createNewFile()){
+//                System.out.println("file is create");
+//            }
+//        }
+//        catch(IOException ex){
+//            System.out.println("error");
+//        }
+//    }
+//}
+
+//write a date in file
+//import java.io.FileWriter;
+//import java.io.IOException;
+//
+////want to write
+//public class Main {
+//    public static void main(String[] args) {
+//        try{
+//            //for write
+//            FileWriter mywrite=new FileWriter("first.txt");
+//            mywrite.write("java is a programing language");
+//            mywrite.close();
+//            System.out.println("success fully run");
+//        }catch (IOException ex){
+//            System.out.println("error");
+//        }
+//    }
+//}
+
+
+
+
+////read a file
+//
+//import java.io.File;
+//import java.io.FileNotFoundException;
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        try{
+//            File myObj= new File("first.txt");
+//            Scanner MyReader = new Scanner(myObj);
+//            while(MyReader.hasNextLine());
+//            String data = MyReader.nextLine();
+//            System.out.println(data);
+//        }
+//
+//        catch (FileNotFoundException ex){
+//            System.out.println("file is not present ");
+//        }
+//    }
+//}
